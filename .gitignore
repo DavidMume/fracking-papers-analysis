@@ -1,0 +1,26 @@
+# PDFs originales — no versionar
+*.pdf
+*.PDF
+
+# Datos procesados grandes — generados localmente con el script
+data/raw/
+data/processed/
+data/figures/
+outputs/papers_metadata.csv
+outputs/figures_index.csv
+outputs/corpus_summary.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
