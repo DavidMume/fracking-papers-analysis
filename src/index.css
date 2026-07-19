@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::selection {
+  background: #3987e5;
+  color: #0d0d0c;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.leaflet-container {
+  background: #171613 !important;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #1f1d19;
+  color: #f3efe6;
+  border: 1px solid #2c2a25;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 6px;
+}
+
+.leaflet-popup-tip {
+  border: none;
+}
+
+.leaflet-control-attribution {
+  background: rgba(23, 22, 19, 0.8) !important;
+  color: #8a8578 !important;
+}
+
+.leaflet-control-attribution a {
+  color: #c3bfb2 !important;
+}
+
+.leaflet-control-zoom a {
+  background: #1f1d19 !important;
+  color: #f3efe6 !important;
+  border-color: #2c2a25 !important;
+}

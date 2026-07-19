@@ -24,3 +24,10 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Frontend build
+node_modules/
+dist/
+*.local
+.vite/
+*.tsbuildinfo
